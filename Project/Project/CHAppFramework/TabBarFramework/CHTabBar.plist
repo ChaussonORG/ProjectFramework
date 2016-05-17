@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color</key>
+	<string>0Xffffff</string>
+	<key>style</key>
+	<string>UIVisualEffectView</string>
+	<key>height</key>
+	<integer>49</integer>
+	<key>selectIndex</key>
+	<integer>0</integer>
+	<key>tabBarItems</key>
+	<array>
+		<dict>
+			<key>UIViewControllName</key>
+			<string>HHTHomePageViewController</string>
+			<key>tabbarTitle</key>
+			<string>互海通</string>
+			<key>unselectedIconName</key>
+			<string>found</string>
+			<key>selectedIconName</key>
+			<string>foundSelected</string>
+		</dict>
+		<dict>
+			<key>tabbarTitle</key>
+			<string>船舶</string>
+			<key>UIViewControllName</key>
+			<string>HHTShipsController</string>
+			<key>unselectedIconName</key>
+			<string>circle</string>
+			<key>selectedIconName</key>
+			<string>seletcircle</string>
+		</dict>
+		<dict>
+			<key>tabbarTitle</key>
+			<string>我的</string>
+			<key>UIViewControllName</key>
+			<string>HHTSeaMapViewController</string>
+			<key>unselectedIconName</key>
+			<string>found</string>
+			<key>selectedIconName</key>
+			<string>foundSelected</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>
