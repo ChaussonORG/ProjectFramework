@@ -11,17 +11,6 @@
 		0601E0EA1CD1B71400462846 /* CHDownSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0601E0E41CD1B71400462846 /* CHDownSheetCell.m */; };
 		0601E0EB1CD1B71400462846 /* CHDownSheetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0601E0E61CD1B71400462846 /* CHDownSheetModel.m */; };
 		0601E0EC1CD1B71400462846 /* CHImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0601E0E81CD1B71400462846 /* CHImagePicker.m */; };
-		0606F7AD1CEAE43600B4AEF9 /* CHUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7931CEAE43600B4AEF9 /* CHUserInfoModel.m */; };
-		0606F7AE1CEAE43600B4AEF9 /* CHLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7971CEAE43600B4AEF9 /* CHLoginButton.m */; };
-		0606F7AF1CEAE43600B4AEF9 /* CHLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7991CEAE43600B4AEF9 /* CHLoginTextField.m */; };
-		0606F7B01CEAE43600B4AEF9 /* CHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F79B1CEAE43600B4AEF9 /* CHLoginViewController.m */; };
-		0606F7B11CEAE43600B4AEF9 /* CHLoginOperationWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F79E1CEAE43600B4AEF9 /* CHLoginOperationWebController.m */; };
-		0606F7B21CEAE43600B4AEF9 /* CHLoginOperationWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7A01CEAE43600B4AEF9 /* CHLoginOperationWebViewModel.m */; };
-		0606F7B31CEAE43600B4AEF9 /* CHRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7A31CEAE43600B4AEF9 /* CHRegisterController.m */; };
-		0606F7B41CEAE43600B4AEF9 /* CHRestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7A61CEAE43600B4AEF9 /* CHRestController.m */; };
-		0606F7B51CEAE43600B4AEF9 /* CHLoginModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7A81CEAE43600B4AEF9 /* CHLoginModalController.m */; };
-		0606F7B61CEAE43600B4AEF9 /* CHLoginModalController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0606F7A91CEAE43600B4AEF9 /* CHLoginModalController.storyboard */; };
-		0606F7B71CEAE43600B4AEF9 /* CHLoginServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606F7AC1CEAE43600B4AEF9 /* CHLoginServiceCenter.m */; };
 		0667C8751CE5856400E93AEC /* CHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0667C8741CE5856400E93AEC /* CHWebViewController.m */; };
 		0674C3D91CD1A6AF00147BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3C01CD1A6AF00147BD1 /* AppDelegate.m */; };
 		0674C3DA1CD1A6AF00147BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0674C3C11CD1A6AF00147BD1 /* LaunchScreen.storyboard */; };
@@ -41,6 +30,16 @@
 		0674D0561CE43020000132ED /* CHTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D04E1CE43020000132ED /* CHTabBarModel.m */; };
 		0674D0571CE43020000132ED /* CHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D0501CE43020000132ED /* CHTabBarViewController.m */; };
 		0674D0581CE43020000132ED /* CHTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D0521CE43020000132ED /* CHTabBarViewModel.m */; };
+		06D8782B1CF86F9000DC98E7 /* CHUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878141CF86F9000DC98E7 /* CHUserInfoModel.m */; };
+		06D8782C1CF86F9000DC98E7 /* CHLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878181CF86F9000DC98E7 /* CHLoginButton.m */; };
+		06D8782D1CF86F9000DC98E7 /* CHLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D8781A1CF86F9000DC98E7 /* CHLoginTextField.m */; };
+		06D8782E1CF86F9000DC98E7 /* CHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D8781C1CF86F9000DC98E7 /* CHLoginViewController.m */; };
+		06D8782F1CF86F9000DC98E7 /* CHLoginOperationWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D8781F1CF86F9000DC98E7 /* CHLoginOperationWebController.m */; };
+		06D878301CF86F9000DC98E7 /* CHLoginOperationWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878211CF86F9000DC98E7 /* CHLoginOperationWebViewModel.m */; };
+		06D878311CF86F9000DC98E7 /* CHRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878241CF86F9000DC98E7 /* CHRegisterController.m */; };
+		06D878321CF86F9000DC98E7 /* CHRestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878271CF86F9000DC98E7 /* CHRestController.m */; };
+		06D878331CF86F9000DC98E7 /* CHLoginModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878291CF86F9000DC98E7 /* CHLoginModalController.m */; };
+		06D878341CF86F9000DC98E7 /* CHLoginModalController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D8782A1CF86F9000DC98E7 /* CHLoginModalController.storyboard */; };
 		752F51E3F12B7884AB805CCD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74E7FD4A6C16BC46E90B63A /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,27 +52,6 @@
 		0601E0E61CD1B71400462846 /* CHDownSheetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDownSheetModel.m; sourceTree = "<group>"; };
 		0601E0E71CD1B71400462846 /* CHImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImagePicker.h; sourceTree = "<group>"; };
 		0601E0E81CD1B71400462846 /* CHImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImagePicker.m; sourceTree = "<group>"; };
-		0606F7921CEAE43600B4AEF9 /* CHUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUserInfoModel.h; sourceTree = "<group>"; };
-		0606F7931CEAE43600B4AEF9 /* CHUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUserInfoModel.m; sourceTree = "<group>"; };
-		0606F7961CEAE43600B4AEF9 /* CHLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginButton.h; sourceTree = "<group>"; };
-		0606F7971CEAE43600B4AEF9 /* CHLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginButton.m; sourceTree = "<group>"; };
-		0606F7981CEAE43600B4AEF9 /* CHLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginTextField.h; sourceTree = "<group>"; };
-		0606F7991CEAE43600B4AEF9 /* CHLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginTextField.m; sourceTree = "<group>"; };
-		0606F79A1CEAE43600B4AEF9 /* CHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginViewController.h; sourceTree = "<group>"; };
-		0606F79B1CEAE43600B4AEF9 /* CHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginViewController.m; sourceTree = "<group>"; };
-		0606F79D1CEAE43600B4AEF9 /* CHLoginOperationWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginOperationWebController.h; sourceTree = "<group>"; };
-		0606F79E1CEAE43600B4AEF9 /* CHLoginOperationWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginOperationWebController.m; sourceTree = "<group>"; };
-		0606F79F1CEAE43600B4AEF9 /* CHLoginOperationWebViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginOperationWebViewModel.h; sourceTree = "<group>"; };
-		0606F7A01CEAE43600B4AEF9 /* CHLoginOperationWebViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginOperationWebViewModel.m; sourceTree = "<group>"; };
-		0606F7A21CEAE43600B4AEF9 /* CHRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRegisterController.h; sourceTree = "<group>"; };
-		0606F7A31CEAE43600B4AEF9 /* CHRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRegisterController.m; sourceTree = "<group>"; };
-		0606F7A51CEAE43600B4AEF9 /* CHRestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRestController.h; sourceTree = "<group>"; };
-		0606F7A61CEAE43600B4AEF9 /* CHRestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRestController.m; sourceTree = "<group>"; };
-		0606F7A71CEAE43600B4AEF9 /* CHLoginModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginModalController.h; sourceTree = "<group>"; };
-		0606F7A81CEAE43600B4AEF9 /* CHLoginModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginModalController.m; sourceTree = "<group>"; };
-		0606F7A91CEAE43600B4AEF9 /* CHLoginModalController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CHLoginModalController.storyboard; sourceTree = "<group>"; };
-		0606F7AB1CEAE43600B4AEF9 /* CHLoginServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginServiceCenter.h; sourceTree = "<group>"; };
-		0606F7AC1CEAE43600B4AEF9 /* CHLoginServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginServiceCenter.m; sourceTree = "<group>"; };
 		061936521CD0CA7200A94281 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0667C8731CE5856400E93AEC /* CHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWebViewController.h; sourceTree = "<group>"; };
 		0667C8741CE5856400E93AEC /* CHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWebViewController.m; sourceTree = "<group>"; };
@@ -109,6 +87,25 @@
 		0674D0501CE43020000132ED /* CHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTabBarViewController.m; sourceTree = "<group>"; };
 		0674D0511CE43020000132ED /* CHTabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTabBarViewModel.h; sourceTree = "<group>"; };
 		0674D0521CE43020000132ED /* CHTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTabBarViewModel.m; sourceTree = "<group>"; };
+		06D878131CF86F9000DC98E7 /* CHUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUserInfoModel.h; sourceTree = "<group>"; };
+		06D878141CF86F9000DC98E7 /* CHUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUserInfoModel.m; sourceTree = "<group>"; };
+		06D878171CF86F9000DC98E7 /* CHLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginButton.h; sourceTree = "<group>"; };
+		06D878181CF86F9000DC98E7 /* CHLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginButton.m; sourceTree = "<group>"; };
+		06D878191CF86F9000DC98E7 /* CHLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginTextField.h; sourceTree = "<group>"; };
+		06D8781A1CF86F9000DC98E7 /* CHLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginTextField.m; sourceTree = "<group>"; };
+		06D8781B1CF86F9000DC98E7 /* CHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginViewController.h; sourceTree = "<group>"; };
+		06D8781C1CF86F9000DC98E7 /* CHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginViewController.m; sourceTree = "<group>"; };
+		06D8781E1CF86F9000DC98E7 /* CHLoginOperationWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginOperationWebController.h; sourceTree = "<group>"; };
+		06D8781F1CF86F9000DC98E7 /* CHLoginOperationWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginOperationWebController.m; sourceTree = "<group>"; };
+		06D878201CF86F9000DC98E7 /* CHLoginOperationWebViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginOperationWebViewModel.h; sourceTree = "<group>"; };
+		06D878211CF86F9000DC98E7 /* CHLoginOperationWebViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginOperationWebViewModel.m; sourceTree = "<group>"; };
+		06D878231CF86F9000DC98E7 /* CHRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRegisterController.h; sourceTree = "<group>"; };
+		06D878241CF86F9000DC98E7 /* CHRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRegisterController.m; sourceTree = "<group>"; };
+		06D878261CF86F9000DC98E7 /* CHRestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRestController.h; sourceTree = "<group>"; };
+		06D878271CF86F9000DC98E7 /* CHRestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRestController.m; sourceTree = "<group>"; };
+		06D878281CF86F9000DC98E7 /* CHLoginModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginModalController.h; sourceTree = "<group>"; };
+		06D878291CF86F9000DC98E7 /* CHLoginModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginModalController.m; sourceTree = "<group>"; };
+		06D8782A1CF86F9000DC98E7 /* CHLoginModalController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CHLoginModalController.storyboard; sourceTree = "<group>"; };
 		831625205B6A6F965A1B75F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B2FCFAD5115C1CDD56E23475 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E74E7FD4A6C16BC46E90B63A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,90 +144,6 @@
 				0601E0E61CD1B71400462846 /* CHDownSheetModel.m */,
 			);
 			path = ChaussonSheet;
-			sourceTree = "<group>";
-		};
-		0606F7901CEAE43600B4AEF9 /* LoginFramework */ = {
-			isa = PBXGroup;
-			children = (
-				0606F7911CEAE43600B4AEF9 /* CHLoginBusiness */,
-				0606F7941CEAE43600B4AEF9 /* CHLoginController */,
-				0606F7A71CEAE43600B4AEF9 /* CHLoginModalController.h */,
-				0606F7A81CEAE43600B4AEF9 /* CHLoginModalController.m */,
-				0606F7A91CEAE43600B4AEF9 /* CHLoginModalController.storyboard */,
-				0606F7AA1CEAE43600B4AEF9 /* CHLoginService */,
-			);
-			path = LoginFramework;
-			sourceTree = "<group>";
-		};
-		0606F7911CEAE43600B4AEF9 /* CHLoginBusiness */ = {
-			isa = PBXGroup;
-			children = (
-				0606F7921CEAE43600B4AEF9 /* CHUserInfoModel.h */,
-				0606F7931CEAE43600B4AEF9 /* CHUserInfoModel.m */,
-			);
-			path = CHLoginBusiness;
-			sourceTree = "<group>";
-		};
-		0606F7941CEAE43600B4AEF9 /* CHLoginController */ = {
-			isa = PBXGroup;
-			children = (
-				0606F7951CEAE43600B4AEF9 /* CHLoginView */,
-				0606F79A1CEAE43600B4AEF9 /* CHLoginViewController.h */,
-				0606F79B1CEAE43600B4AEF9 /* CHLoginViewController.m */,
-				0606F79C1CEAE43600B4AEF9 /* CHLoginWebView */,
-				0606F7A11CEAE43600B4AEF9 /* CHOriginateRegister */,
-				0606F7A41CEAE43600B4AEF9 /* CHOriginateReset */,
-			);
-			path = CHLoginController;
-			sourceTree = "<group>";
-		};
-		0606F7951CEAE43600B4AEF9 /* CHLoginView */ = {
-			isa = PBXGroup;
-			children = (
-				0606F7961CEAE43600B4AEF9 /* CHLoginButton.h */,
-				0606F7971CEAE43600B4AEF9 /* CHLoginButton.m */,
-				0606F7981CEAE43600B4AEF9 /* CHLoginTextField.h */,
-				0606F7991CEAE43600B4AEF9 /* CHLoginTextField.m */,
-			);
-			path = CHLoginView;
-			sourceTree = "<group>";
-		};
-		0606F79C1CEAE43600B4AEF9 /* CHLoginWebView */ = {
-			isa = PBXGroup;
-			children = (
-				0606F79D1CEAE43600B4AEF9 /* CHLoginOperationWebController.h */,
-				0606F79E1CEAE43600B4AEF9 /* CHLoginOperationWebController.m */,
-				0606F79F1CEAE43600B4AEF9 /* CHLoginOperationWebViewModel.h */,
-				0606F7A01CEAE43600B4AEF9 /* CHLoginOperationWebViewModel.m */,
-			);
-			path = CHLoginWebView;
-			sourceTree = "<group>";
-		};
-		0606F7A11CEAE43600B4AEF9 /* CHOriginateRegister */ = {
-			isa = PBXGroup;
-			children = (
-				0606F7A21CEAE43600B4AEF9 /* CHRegisterController.h */,
-				0606F7A31CEAE43600B4AEF9 /* CHRegisterController.m */,
-			);
-			path = CHOriginateRegister;
-			sourceTree = "<group>";
-		};
-		0606F7A41CEAE43600B4AEF9 /* CHOriginateReset */ = {
-			isa = PBXGroup;
-			children = (
-				0606F7A51CEAE43600B4AEF9 /* CHRestController.h */,
-				0606F7A61CEAE43600B4AEF9 /* CHRestController.m */,
-			);
-			path = CHOriginateReset;
-			sourceTree = "<group>";
-		};
-		0606F7AA1CEAE43600B4AEF9 /* CHLoginService */ = {
-			isa = PBXGroup;
-			children = (
-				0606F7AB1CEAE43600B4AEF9 /* CHLoginServiceCenter.h */,
-				0606F7AC1CEAE43600B4AEF9 /* CHLoginServiceCenter.m */,
-			);
-			path = CHLoginService;
 			sourceTree = "<group>";
 		};
 		061935D51CD0ADBB00A94281 = {
@@ -290,7 +203,7 @@
 		0674C3C41CD1A6AF00147BD1 /* CHAppFramework */ = {
 			isa = PBXGroup;
 			children = (
-				0606F7901CEAE43600B4AEF9 /* LoginFramework */,
+				06D878111CF86F9000DC98E7 /* LoginFramework */,
 				0667C8721CE5856400E93AEC /* WebViewFramework */,
 				0674D0471CE43020000132ED /* TabBarFramework */,
 				0674C3C51CD1A6AF00147BD1 /* ASUIFramework */,
@@ -407,6 +320,80 @@
 			path = TabBarFramework;
 			sourceTree = "<group>";
 		};
+		06D878111CF86F9000DC98E7 /* LoginFramework */ = {
+			isa = PBXGroup;
+			children = (
+				06D878121CF86F9000DC98E7 /* CHLoginBusiness */,
+				06D878151CF86F9000DC98E7 /* CHLoginController */,
+				06D878281CF86F9000DC98E7 /* CHLoginModalController.h */,
+				06D878291CF86F9000DC98E7 /* CHLoginModalController.m */,
+				06D8782A1CF86F9000DC98E7 /* CHLoginModalController.storyboard */,
+			);
+			path = LoginFramework;
+			sourceTree = "<group>";
+		};
+		06D878121CF86F9000DC98E7 /* CHLoginBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				06D878131CF86F9000DC98E7 /* CHUserInfoModel.h */,
+				06D878141CF86F9000DC98E7 /* CHUserInfoModel.m */,
+			);
+			path = CHLoginBusiness;
+			sourceTree = "<group>";
+		};
+		06D878151CF86F9000DC98E7 /* CHLoginController */ = {
+			isa = PBXGroup;
+			children = (
+				06D878161CF86F9000DC98E7 /* CHLoginView */,
+				06D8781B1CF86F9000DC98E7 /* CHLoginViewController.h */,
+				06D8781C1CF86F9000DC98E7 /* CHLoginViewController.m */,
+				06D8781D1CF86F9000DC98E7 /* CHLoginWebView */,
+				06D878221CF86F9000DC98E7 /* CHOriginateRegister */,
+				06D878251CF86F9000DC98E7 /* CHOriginateReset */,
+			);
+			path = CHLoginController;
+			sourceTree = "<group>";
+		};
+		06D878161CF86F9000DC98E7 /* CHLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				06D878171CF86F9000DC98E7 /* CHLoginButton.h */,
+				06D878181CF86F9000DC98E7 /* CHLoginButton.m */,
+				06D878191CF86F9000DC98E7 /* CHLoginTextField.h */,
+				06D8781A1CF86F9000DC98E7 /* CHLoginTextField.m */,
+			);
+			path = CHLoginView;
+			sourceTree = "<group>";
+		};
+		06D8781D1CF86F9000DC98E7 /* CHLoginWebView */ = {
+			isa = PBXGroup;
+			children = (
+				06D8781E1CF86F9000DC98E7 /* CHLoginOperationWebController.h */,
+				06D8781F1CF86F9000DC98E7 /* CHLoginOperationWebController.m */,
+				06D878201CF86F9000DC98E7 /* CHLoginOperationWebViewModel.h */,
+				06D878211CF86F9000DC98E7 /* CHLoginOperationWebViewModel.m */,
+			);
+			path = CHLoginWebView;
+			sourceTree = "<group>";
+		};
+		06D878221CF86F9000DC98E7 /* CHOriginateRegister */ = {
+			isa = PBXGroup;
+			children = (
+				06D878231CF86F9000DC98E7 /* CHRegisterController.h */,
+				06D878241CF86F9000DC98E7 /* CHRegisterController.m */,
+			);
+			path = CHOriginateRegister;
+			sourceTree = "<group>";
+		};
+		06D878251CF86F9000DC98E7 /* CHOriginateReset */ = {
+			isa = PBXGroup;
+			children = (
+				06D878261CF86F9000DC98E7 /* CHRestController.h */,
+				06D878271CF86F9000DC98E7 /* CHRestController.m */,
+			);
+			path = CHOriginateReset;
+			sourceTree = "<group>";
+		};
 		76867E56975CCE329D64C042 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,7 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0674C3DF1CD1A6AF00147BD1 /* Assets.xcassets in Resources */,
-				0606F7B61CEAE43600B4AEF9 /* CHLoginModalController.storyboard in Resources */,
+				06D878341CF86F9000DC98E7 /* CHLoginModalController.storyboard in Resources */,
 				0674C3DA1CD1A6AF00147BD1 /* LaunchScreen.storyboard in Resources */,
 				0674C3E01CD1A6AF00147BD1 /* Main.storyboard in Resources */,
 				0674D0551CE43020000132ED /* CHTabBar.plist in Resources */,
@@ -549,33 +536,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				0667C8751CE5856400E93AEC /* CHWebViewController.m in Sources */,
+				06D8782F1CF86F9000DC98E7 /* CHLoginOperationWebController.m in Sources */,
 				0601E0E91CD1B71400462846 /* CHDownSheet.m in Sources */,
 				0674C3DB1CD1A6AF00147BD1 /* main.m in Sources */,
 				0674C3DC1CD1A6AF00147BD1 /* ASNavigationController.m in Sources */,
 				0601E0EB1CD1B71400462846 /* CHDownSheetModel.m in Sources */,
-				0606F7B01CEAE43600B4AEF9 /* CHLoginViewController.m in Sources */,
 				0674C3E81CD1A84400147BD1 /* NSError+SignalError.m in Sources */,
 				0674D0531CE43020000132ED /* CHBarItemViewModel.m in Sources */,
-				0606F7B21CEAE43600B4AEF9 /* CHLoginOperationWebViewModel.m in Sources */,
+				06D878331CF86F9000DC98E7 /* CHLoginModalController.m in Sources */,
+				06D8782B1CF86F9000DC98E7 /* CHUserInfoModel.m in Sources */,
 				0601E0EC1CD1B71400462846 /* CHImagePicker.m in Sources */,
-				0606F7AD1CEAE43600B4AEF9 /* CHUserInfoModel.m in Sources */,
-				0606F7AE1CEAE43600B4AEF9 /* CHLoginButton.m in Sources */,
 				0674D0581CE43020000132ED /* CHTabBarViewModel.m in Sources */,
-				0606F7B11CEAE43600B4AEF9 /* CHLoginOperationWebController.m in Sources */,
-				0606F7B71CEAE43600B4AEF9 /* CHLoginServiceCenter.m in Sources */,
 				0674C3D91CD1A6AF00147BD1 /* AppDelegate.m in Sources */,
 				0674C3E91CD1A84400147BD1 /* UIColor+Hex.m in Sources */,
-				0606F7B31CEAE43600B4AEF9 /* CHRegisterController.m in Sources */,
-				0606F7B41CEAE43600B4AEF9 /* CHRestController.m in Sources */,
-				0606F7AF1CEAE43600B4AEF9 /* CHLoginTextField.m in Sources */,
 				0674C3F01CD1A8CA00147BD1 /* UDIDTools.m in Sources */,
 				0674C3E11CD1A6AF00147BD1 /* CHHomeViewController.m in Sources */,
-				0606F7B51CEAE43600B4AEF9 /* CHLoginModalController.m in Sources */,
+				06D878311CF86F9000DC98E7 /* CHRegisterController.m in Sources */,
+				06D878301CF86F9000DC98E7 /* CHLoginOperationWebViewModel.m in Sources */,
 				0674D0561CE43020000132ED /* CHTabBarModel.m in Sources */,
 				0601E0EA1CD1B71400462846 /* CHDownSheetCell.m in Sources */,
+				06D8782E1CF86F9000DC98E7 /* CHLoginViewController.m in Sources */,
+				06D8782C1CF86F9000DC98E7 /* CHLoginButton.m in Sources */,
 				0674D0541CE43020000132ED /* CHCustomTabBar.m in Sources */,
 				0674C3EA1CD1A84400147BD1 /* UIImage+Scale.m in Sources */,
+				06D878321CF86F9000DC98E7 /* CHRestController.m in Sources */,
 				0674C3DD1CD1A6AF00147BD1 /* ASNavigator.m in Sources */,
+				06D8782D1CF86F9000DC98E7 /* CHLoginTextField.m in Sources */,
 				0674D0571CE43020000132ED /* CHTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
