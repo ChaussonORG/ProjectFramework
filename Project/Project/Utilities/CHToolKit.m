@@ -1,60 +1,77 @@
 //
-//  UDIDTools.m
-//  PhotoBook
+//  CHToolKit.m
+//  Project
 //
-//  Created by artisan on 14-6-16.
-//  Copyright (c) 2014年 Logictech . All rights reserved.
+//  Created by Chausson on 16/6/30.
+//  Copyright © 2016年 Chausson. All rights reserved.
 //
 
-#import "UDIDTools.h"
+#import "CHToolKit.h"
+#import <CommonCrypto/CommonDigest.h>
 #import <Security/Security.h>
 #import <UIKit/UIKit.h>
 #include <sys/socket.h>
 #include <sys/sysctl.h>
 #include <net/if.h>
 #include <net/if_dl.h>
+
 static const char kKeychainUDIDItemIdentifier[]  = "UUID";
-static const char kKeyChainUDIDAccessGroup[] = "UBTP437Y3Q.com.artisanstate.PhotoBook";
-
-@implementation UDIDTools
-
+static const char kKeyChainUDIDAccessGroup[] = "Chausson.NewProjectExample";
+static bool loadLaunchFlag;
+@implementation CHToolKit
++ (void)load{
+   loadLaunchFlag = [CHToolKit launchFlag];
+}
++ (BOOL)isFirstLaunch{
+    return loadLaunchFlag;
+}
 + (NSString*)UDID
 {
-    NSString *udid = [UDIDTools getUDIDFromKeyChain];
+    NSString *udid = [CHToolKit getUDIDFromKeyChain];
     if (!udid) {
         
         NSString *sysVersion = [UIDevice currentDevice].systemVersion;
         CGFloat version = [sysVersion floatValue];
         
         if (version >= 7.0) {
-            udid = [UDIDTools _UDID_iOS7];
+            udid = [CHToolKit _UDID_iOS7];
         }
         else if (version >= 2.0) {
-            udid = [UDIDTools _UDID_iOS6];
+            udid = [CHToolKit _UDID_iOS6];
         }
         
-        [UDIDTools settUDIDToKeyChain:udid];
+        [CHToolKit settUDIDToKeyChain:udid];
     }
     
     return udid;
 }
-
++ (NSString *)md5FromString:(NSString *)string {
+    if(string == nil || [string length] == 0)
+        return nil;
+    
+    const char *value = [string UTF8String];
+    
+    unsigned char outputBuffer[CC_MD5_DIGEST_LENGTH];
+    CC_MD5(value, (CC_LONG)strlen(value), outputBuffer);
+    
+    NSMutableString *outputString = [[NSMutableString alloc] initWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+    for(NSInteger count = 0; count < CC_MD5_DIGEST_LENGTH; count++){
+        [outputString appendFormat:@"%02x",outputBuffer[count]];
+    }
+    
+    return outputString;
+}
 + (BOOL)hasUDIDInKeyChain
 {
-    NSString *udid = [UDIDTools getUDIDFromKeyChain];
+    NSString *udid = [CHToolKit getUDIDFromKeyChain];
     if (udid) {
         return YES;
     }
     return NO;
 }
-
-/*
- * iOS 6.0
- * use wifi's mac address
- */
 + (NSString*)_UDID_iOS6
 {
-    return [UDIDTools getMacAddress];
+    return [CHToolKit getMacAddress];
 }
 
 /*
@@ -195,13 +212,13 @@ static const char kKeyChainUDIDAccessGroup[] = "UBTP437Y3Q.com.artisanstate.Phot
     queryErr = SecItemCopyMatching((__bridge CFDictionaryRef)dictForQuery, (void *)&dict);
     
     if (queryErr == errSecItemNotFound) {
-       // NSLog(@"KeyChain Item: %@ not found!!!", [NSString stringWithUTF8String:kKeychainUDIDItemIdentifier]);
+        // NSLog(@"KeyChain Item: %@ not found!!!", [NSString stringWithUTF8String:kKeychainUDIDItemIdentifier]);
     }
     else if (queryErr != errSecSuccess) {
-      //  NSLog(@"KeyChain Item query Error!!! Error code:%d", (int)queryErr);
+        //  NSLog(@"KeyChain Item query Error!!! Error code:%d", (int)queryErr);
     }
     if (queryErr == errSecSuccess) {
-      //  NSLog(@"KeyChain Item: %@", udidValue);
+        //  NSLog(@"KeyChain Item: %@", udidValue);
         
         if (udidValue) {
             udid = [NSString stringWithUTF8String:udidValue.bytes];
@@ -250,27 +267,22 @@ static const char kKeyChainUDIDAccessGroup[] = "UBTP437Y3Q.com.artisanstate.Phot
     [dictForAdd setValue:keyChainItemValue forKey:(__bridge id)kSecValueData];
     
     OSStatus writeErr = noErr;
-    if ([UDIDTools getUDIDFromKeyChain]) {        // there is item in keychain
-        [UDIDTools updateUDIDInKeyChain:udid];
-        //[dictForAdd release];
+    if ([CHToolKit getUDIDFromKeyChain]) {        // there is item in keychain
+        [CHToolKit updateUDIDInKeyChain:udid];
         return YES;
     }
     else {          // add item to keychain
         writeErr = SecItemAdd((__bridge CFDictionaryRef)dictForAdd, NULL);
         if (writeErr != errSecSuccess) {
             NSLog(@"Add KeyChain Item Error!!! Error Code:%d", (int)writeErr);
-            
-            //[dictForAdd release];
+
             return NO;
         }
         else {
             NSLog(@"Add KeyChain Item Success!!!");
-            //[dictForAdd release];
             return YES;
         }
     }
-    
-    //[dictForAdd release];
     return NO;
 }
 
@@ -287,14 +299,12 @@ static const char kKeyChainUDIDAccessGroup[] = "UBTP437Y3Q.com.artisanstate.Phot
     deleteErr = SecItemDelete((__bridge CFDictionaryRef)dictToDelete);
     if (deleteErr != errSecSuccess) {
         NSLog(@"delete UUID from KeyChain Error!!! Error code:%d", (int)deleteErr);
-        //[dictToDelete release];
         return NO;
     }
     else {
         NSLog(@"delete success!!!");
     }
-    
-    //[dictToDelete release];
+
     return YES;
 }
 
@@ -336,21 +346,29 @@ static const char kKeyChainUDIDAccessGroup[] = "UBTP437Y3Q.com.artisanstate.Phot
         updateErr = SecItemUpdate((__bridge CFDictionaryRef)updateItem, (__bridge CFDictionaryRef)dictForUpdate);
         if (updateErr != errSecSuccess) {
             NSLog(@"Update KeyChain Item Error!!! Error Code:%d", (int)updateErr);
-            
-            //[dictForQuery release];
-            //[dictForUpdate release];
+    
             return NO;
         }
         else {
             NSLog(@"Update KeyChain Item Success!!!");
-            //[dictForQuery release];
-            //[dictForUpdate release];
+
             return YES;
         }
     }
     
-    //[dictForQuery release];
     return NO;
 }
+#pragma mark Private
++ (BOOL)launchFlag{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *launchKey = [CHToolKit md5FromString:[NSString stringWithFormat:@"%@",[CHToolKit description]]];
+//    [defaults removeObjectForKey:[CHToolKit md5FromString:launchKey]];
+    if (![defaults objectForKey:launchKey]) {
+        [defaults setValue:[CHToolKit description] forKey:launchKey];
+        [defaults synchronize];
+        return NO;
+    }
+    return YES;
 
+}
 @end

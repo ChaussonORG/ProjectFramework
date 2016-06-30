@@ -19,7 +19,6 @@
 		0674C3E81CD1A84400147BD1 /* NSError+SignalError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3E31CD1A84400147BD1 /* NSError+SignalError.m */; };
 		0674C3E91CD1A84400147BD1 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3E51CD1A84400147BD1 /* UIColor+Hex.m */; };
 		0674C3EA1CD1A84400147BD1 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3E71CD1A84400147BD1 /* UIImage+Scale.m */; };
-		0674C3F01CD1A8CA00147BD1 /* UDIDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3EF1CD1A8CA00147BD1 /* UDIDTools.m */; };
 		0674D0531CE43020000132ED /* CHBarItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D0491CE43020000132ED /* CHBarItemViewModel.m */; };
 		0674D0541CE43020000132ED /* CHCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D04B1CE43020000132ED /* CHCustomTabBar.m */; };
 		0674D0551CE43020000132ED /* CHTabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0674D04C1CE43020000132ED /* CHTabBar.plist */; };
@@ -36,6 +35,7 @@
 		06D878321CF86F9000DC98E7 /* CHRestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878271CF86F9000DC98E7 /* CHRestController.m */; };
 		06D878331CF86F9000DC98E7 /* CHLoginModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878291CF86F9000DC98E7 /* CHLoginModalController.m */; };
 		06D878341CF86F9000DC98E7 /* CHLoginModalController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D8782A1CF86F9000DC98E7 /* CHLoginModalController.storyboard */; };
+		06E9F79C1D24E45E007CF577 /* CHToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E9F79B1D24E45E007CF577 /* CHToolKit.m */; };
 		E2505044606E7163DBAF1E40 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE4651093D5F09C872F9DE6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +62,6 @@
 		0674C3E51CD1A84400147BD1 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		0674C3E61CD1A84400147BD1 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
 		0674C3E71CD1A84400147BD1 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
-		0674C3EE1CD1A8CA00147BD1 /* UDIDTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDIDTools.h; sourceTree = "<group>"; };
-		0674C3EF1CD1A8CA00147BD1 /* UDIDTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDIDTools.m; sourceTree = "<group>"; };
 		0674D0481CE43020000132ED /* CHBarItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBarItemViewModel.h; sourceTree = "<group>"; };
 		0674D0491CE43020000132ED /* CHBarItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBarItemViewModel.m; sourceTree = "<group>"; };
 		0674D04A1CE43020000132ED /* CHCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCustomTabBar.h; sourceTree = "<group>"; };
@@ -95,6 +93,8 @@
 		06D878291CF86F9000DC98E7 /* CHLoginModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginModalController.m; sourceTree = "<group>"; };
 		06D8782A1CF86F9000DC98E7 /* CHLoginModalController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CHLoginModalController.storyboard; sourceTree = "<group>"; };
 		06E50D141D0FD35300532B01 /* CHCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCommonMacro.h; sourceTree = "<group>"; };
+		06E9F79A1D24E45E007CF577 /* CHToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHToolKit.h; sourceTree = "<group>"; };
+		06E9F79B1D24E45E007CF577 /* CHToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHToolKit.m; sourceTree = "<group>"; };
 		831625205B6A6F965A1B75F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ABE4651093D5F09C872F9DE6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FCFAD5115C1CDD56E23475 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,36 +115,19 @@
 		061935D51CD0ADBB00A94281 = {
 			isa = PBXGroup;
 			children = (
-				064C6B761D0ED45E00920AFF /* Common */,
-				064C6B751D0ED44500920AFF /* Service */,
-				0674C3F21CD1A8E300147BD1 /* Vendors */,
 				0674C3BE1CD1A6AF00147BD1 /* Bootstrap */,
+				06E9F7981D24E392007CF577 /* Common */,
 				0674C3C31CD1A6AF00147BD1 /* Catagory */,
 				0674C3C41CD1A6AF00147BD1 /* CHAppFramework */,
-				0674C3CC1CD1A6AF00147BD1 /* Info.plist */,
+				76867E56975CCE329D64C042 /* Frameworks */,
 				0674C3CD1CD1A6AF00147BD1 /* Resource */,
 				0674C3D11CD1A6AF00147BD1 /* Utilities */,
+				0674C3CC1CD1A6AF00147BD1 /* Info.plist */,
+				06E9F7991D24E3F5007CF577 /* Vendors */,
 				0674C3D31CD1A6AF00147BD1 /* View + ViewModel */,
 				061936521CD0CA7200A94281 /* Project.app */,
 				A142DCEC8A67998E941A8C1A /* Pods */,
-				76867E56975CCE329D64C042 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		064C6B751D0ED44500920AFF /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Service;
-			path = Project/Service;
-			sourceTree = "<group>";
-		};
-		064C6B761D0ED45E00920AFF /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Common;
-			path = Project/Common;
 			sourceTree = "<group>";
 		};
 		0667C8721CE5856400E93AEC /* WebViewFramework */ = {
@@ -219,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				06E50D141D0FD35300532B01 /* CHCommonMacro.h */,
-				0674C3EE1CD1A8CA00147BD1 /* UDIDTools.h */,
-				0674C3EF1CD1A8CA00147BD1 /* UDIDTools.m */,
+				06E9F79A1D24E45E007CF577 /* CHToolKit.h */,
+				06E9F79B1D24E45E007CF577 /* CHToolKit.m */,
 			);
 			name = Utilities;
 			path = Project/Utilities;
@@ -258,14 +241,6 @@
 			children = (
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		0674C3F21CD1A8E300147BD1 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Vendors;
-			path = Project/Vendors;
 			sourceTree = "<group>";
 		};
 		0674D0471CE43020000132ED /* TabBarFramework */ = {
@@ -358,6 +333,22 @@
 				06D878271CF86F9000DC98E7 /* CHRestController.m */,
 			);
 			path = CHOriginateReset;
+			sourceTree = "<group>";
+		};
+		06E9F7981D24E392007CF577 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			path = Project/Common;
+			sourceTree = "<group>";
+		};
+		06E9F7991D24E3F5007CF577 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			path = Project/Vendors;
 			sourceTree = "<group>";
 		};
 		76867E56975CCE329D64C042 /* Frameworks */ = {
@@ -512,7 +503,6 @@
 				0674D0581CE43020000132ED /* CHTabBarViewModel.m in Sources */,
 				0674C3D91CD1A6AF00147BD1 /* AppDelegate.m in Sources */,
 				0674C3E91CD1A84400147BD1 /* UIColor+Hex.m in Sources */,
-				0674C3F01CD1A8CA00147BD1 /* UDIDTools.m in Sources */,
 				0674C3E11CD1A6AF00147BD1 /* CHHomeViewController.m in Sources */,
 				06D878311CF86F9000DC98E7 /* CHRegisterController.m in Sources */,
 				06D878301CF86F9000DC98E7 /* CHLoginOperationWebViewModel.m in Sources */,
@@ -520,6 +510,7 @@
 				06D8782E1CF86F9000DC98E7 /* CHLoginViewController.m in Sources */,
 				06D8782C1CF86F9000DC98E7 /* CHLoginButton.m in Sources */,
 				0674D0541CE43020000132ED /* CHCustomTabBar.m in Sources */,
+				06E9F79C1D24E45E007CF577 /* CHToolKit.m in Sources */,
 				0674C3EA1CD1A84400147BD1 /* UIImage+Scale.m in Sources */,
 				06D878321CF86F9000DC98E7 /* CHRestController.m in Sources */,
 				0674C3DD1CD1A6AF00147BD1 /* ASNavigator.m in Sources */,

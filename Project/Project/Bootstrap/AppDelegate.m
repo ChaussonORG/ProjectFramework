@@ -5,10 +5,10 @@
 //  Created by Chausson on 16/4/27.
 //  Copyright © 2016年 Chausson. All rights reserved.
 //
-
+#import "ASNavigator.h"
 #import "AppDelegate.h"
 #import "CHHomeViewController.h"
-#import "ASNavigator.h"
+#import "CHToolKit.h"
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,7 @@
     
     UIWindow* window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
     [window makeKeyAndVisible];
-    
+    NSLog(@"[CHToolKit UDID]= %d", [CHToolKit isFirstLaunch]);
     CHHomeViewController *home = [[CHHomeViewController alloc]init];
     UINavigationController *navigatior = [[ASNavigator shareModalCenter]innerWithHome:home];
     [window setRootViewController: navigatior];

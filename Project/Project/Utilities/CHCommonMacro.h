@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #ifndef CHCommonMacro_h
 #define CHCommonMacro_h
