@@ -366,9 +366,9 @@ static bool loadLaunchFlag;
     if (![defaults objectForKey:launchKey]) {
         [defaults setValue:[CHToolKit description] forKey:launchKey];
         [defaults synchronize];
-        return NO;
+        return YES;
     }
-    return YES;
+    return NO;
 
 }
 @end
