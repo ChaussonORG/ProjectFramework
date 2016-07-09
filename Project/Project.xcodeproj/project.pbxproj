@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0648F7C11D2A9A6200DC6047 /* CHImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0648F7C01D2A9A6200DC6047 /* CHImageLoader.m */; };
 		0667C8751CE5856400E93AEC /* CHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0667C8741CE5856400E93AEC /* CHWebViewController.m */; };
 		0674C3D91CD1A6AF00147BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3C01CD1A6AF00147BD1 /* AppDelegate.m */; };
 		0674C3DA1CD1A6AF00147BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0674C3C11CD1A6AF00147BD1 /* LaunchScreen.storyboard */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		061936521CD0CA7200A94281 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0648F7BF1D2A9A6200DC6047 /* CHImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImageLoader.h; sourceTree = "<group>"; };
+		0648F7C01D2A9A6200DC6047 /* CHImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImageLoader.m; sourceTree = "<group>"; };
 		0667C8731CE5856400E93AEC /* CHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWebViewController.h; sourceTree = "<group>"; };
 		0667C8741CE5856400E93AEC /* CHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWebViewController.m; sourceTree = "<group>"; };
 		0674C3BF1CD1A6AF00147BD1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,6 +207,8 @@
 				06E50D141D0FD35300532B01 /* CHCommonMacro.h */,
 				06E9F79A1D24E45E007CF577 /* CHToolKit.h */,
 				06E9F79B1D24E45E007CF577 /* CHToolKit.m */,
+				0648F7BF1D2A9A6200DC6047 /* CHImageLoader.h */,
+				0648F7C01D2A9A6200DC6047 /* CHImageLoader.m */,
 			);
 			name = Utilities;
 			path = Project/Utilities;
@@ -499,6 +504,7 @@
 				0674C3E81CD1A84400147BD1 /* NSError+SignalError.m in Sources */,
 				0674D0531CE43020000132ED /* CHBarItemViewModel.m in Sources */,
 				06D878331CF86F9000DC98E7 /* CHLoginModalController.m in Sources */,
+				0648F7C11D2A9A6200DC6047 /* CHImageLoader.m in Sources */,
 				06D8782B1CF86F9000DC98E7 /* CHUserInfoModel.m in Sources */,
 				0674D0581CE43020000132ED /* CHTabBarViewModel.m in Sources */,
 				0674C3D91CD1A6AF00147BD1 /* AppDelegate.m in Sources */,

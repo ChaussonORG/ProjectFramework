@@ -9,5 +9,7 @@
 #import "CHHomeViewController.h"
 
 @implementation CHHomeViewController
-
+- (void)viewDidLoad{
+    [super viewDidLoad];
+}
 @end

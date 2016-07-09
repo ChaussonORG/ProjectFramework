@@ -8,16 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface CHToolKit : NSObject
-/*
- * @brief obtain Unique Device Identity
- */
-+ (NSString*)UDID;//
-
-+ (BOOL)hasUDIDInKeyChain;
-
-+ (BOOL)removeUDIDFromKeyChain;
-
 /*
  * @brief 判断是否首次启动APP
  */
@@ -26,4 +18,12 @@
  * @brief 转换MD5编码
  */
 + (NSString *)md5FromString:(NSString *)string;
+/*
+ * @brief obtain Unique Device Identity
+ */
++ (NSString*)UDID;//
+
++ (BOOL)hasUDIDInKeyChain;
+
++ (BOOL)removeUDIDFromKeyChain;
 @end

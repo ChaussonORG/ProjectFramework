@@ -7,6 +7,7 @@
 //
 
 #import "CHToolKit.h"
+
 #import <CommonCrypto/CommonDigest.h>
 #import <Security/Security.h>
 #import <UIKit/UIKit.h>
@@ -371,4 +372,5 @@ static bool loadLaunchFlag;
     return NO;
 
 }
+
 @end
