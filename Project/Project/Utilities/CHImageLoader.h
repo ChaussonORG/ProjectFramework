@@ -10,18 +10,26 @@
 typedef void(^CHImageCompletionBlock)(UIImage *image, NSError *error, NSString *imageURL);
 @interface CHImageLoader : NSObject
 
-- (void)ch_setImageWithURL:(NSString *)url
++ (void)ch_setImageWithURL:(NSString *)url
                  imageView:(UIImageView *)view;
-- (void)ch_setImageWithURL:(NSString *)url
++ (void)ch_setImageWithURL:(NSString *)url
                  imageView:(UIImageView *)view
           placeholderImage:(UIImage *)placeholder;
-- (void)ch_setImageWithURL:(NSString *)url
++ (void)ch_setImageWithURL:(NSString *)url
                  imageView:(UIImageView *)view
                  completed:(CHImageCompletionBlock)completedBlock;
-- (void)ch_setImageWithURL:(NSString *)url
++ (void)ch_setImageWithURL:(NSString *)url
                  imageView:(UIImageView *)view
           placeholderImage:(UIImage *)placeholder
                  completed:(CHImageCompletionBlock)completedBlock;
-+ (UIImage *)ch_imageName:(NSString *)name isCache:(BOOL)cache;
+
+@end
+@interface UIImage (Loader)
+
++ (UIImage *)ch_ImageName:(NSString *)name isCache:(BOOL)cache;
+
+- (UIImage *)ch_BlurredImage;
+
+
 
 @end
