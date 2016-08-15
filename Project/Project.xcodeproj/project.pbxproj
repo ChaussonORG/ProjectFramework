@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0648F7C11D2A9A6200DC6047 /* CHImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0648F7C01D2A9A6200DC6047 /* CHImageLoader.m */; };
-		065B67D81D5C64BF001BCB0D /* UIImage+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B67D71D5C64BF001BCB0D /* UIImage+Handler.m */; };
 		0674C3D91CD1A6AF00147BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3C01CD1A6AF00147BD1 /* AppDelegate.m */; };
 		0674C3DA1CD1A6AF00147BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0674C3C11CD1A6AF00147BD1 /* LaunchScreen.storyboard */; };
 		0674C3DB1CD1A6AF00147BD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3C21CD1A6AF00147BD1 /* main.m */; };
@@ -19,13 +18,14 @@
 		0674C3E11CD1A6AF00147BD1 /* CHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3D71CD1A6AF00147BD1 /* CHHomeViewController.m */; };
 		0674C3E81CD1A84400147BD1 /* NSError+SignalError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3E31CD1A84400147BD1 /* NSError+SignalError.m */; };
 		0674C3E91CD1A84400147BD1 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3E51CD1A84400147BD1 /* UIColor+Hex.m */; };
-		0674C3EA1CD1A84400147BD1 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674C3E71CD1A84400147BD1 /* UIImage+Scale.m */; };
 		0674D0531CE43020000132ED /* CHBarItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D0491CE43020000132ED /* CHBarItemViewModel.m */; };
 		0674D0541CE43020000132ED /* CHCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D04B1CE43020000132ED /* CHCustomTabBar.m */; };
 		0674D0551CE43020000132ED /* CHTabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0674D04C1CE43020000132ED /* CHTabBar.plist */; };
 		0674D0561CE43020000132ED /* CHTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D04E1CE43020000132ED /* CHTabBarModel.m */; };
 		0674D0571CE43020000132ED /* CHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D0501CE43020000132ED /* CHTabBarViewController.m */; };
 		0674D0581CE43020000132ED /* CHTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674D0521CE43020000132ED /* CHTabBarViewModel.m */; };
+		06C445231D6161A90012C8DD /* UIImage+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C445221D6161A90012C8DD /* UIImage+Handler.m */; };
+		06C445261D6161DF0012C8DD /* NSObject+InitWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C445251D6161DF0012C8DD /* NSObject+InitWithBlock.m */; };
 		06D8782B1CF86F9000DC98E7 /* CHUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878141CF86F9000DC98E7 /* CHUserInfoModel.m */; };
 		06D8782C1CF86F9000DC98E7 /* CHLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D878181CF86F9000DC98E7 /* CHLoginButton.m */; };
 		06D8782D1CF86F9000DC98E7 /* CHLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D8781A1CF86F9000DC98E7 /* CHLoginTextField.m */; };
@@ -44,8 +44,6 @@
 		061936521CD0CA7200A94281 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0648F7BF1D2A9A6200DC6047 /* CHImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImageLoader.h; sourceTree = "<group>"; };
 		0648F7C01D2A9A6200DC6047 /* CHImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImageLoader.m; sourceTree = "<group>"; };
-		065B67D61D5C64BF001BCB0D /* UIImage+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Handler.h"; sourceTree = "<group>"; };
-		065B67D71D5C64BF001BCB0D /* UIImage+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Handler.m"; sourceTree = "<group>"; };
 		0674C3BF1CD1A6AF00147BD1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0674C3C01CD1A6AF00147BD1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0674C3C11CD1A6AF00147BD1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,8 +61,6 @@
 		0674C3E31CD1A84400147BD1 /* NSError+SignalError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+SignalError.m"; sourceTree = "<group>"; };
 		0674C3E41CD1A84400147BD1 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		0674C3E51CD1A84400147BD1 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		0674C3E61CD1A84400147BD1 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
-		0674C3E71CD1A84400147BD1 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		0674D0481CE43020000132ED /* CHBarItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBarItemViewModel.h; sourceTree = "<group>"; };
 		0674D0491CE43020000132ED /* CHBarItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBarItemViewModel.m; sourceTree = "<group>"; };
 		0674D04A1CE43020000132ED /* CHCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCustomTabBar.h; sourceTree = "<group>"; };
@@ -76,6 +72,10 @@
 		0674D0501CE43020000132ED /* CHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTabBarViewController.m; sourceTree = "<group>"; };
 		0674D0511CE43020000132ED /* CHTabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTabBarViewModel.h; sourceTree = "<group>"; };
 		0674D0521CE43020000132ED /* CHTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTabBarViewModel.m; sourceTree = "<group>"; };
+		06C445211D6161A90012C8DD /* UIImage+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Handler.h"; sourceTree = "<group>"; };
+		06C445221D6161A90012C8DD /* UIImage+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Handler.m"; sourceTree = "<group>"; };
+		06C445241D6161DF0012C8DD /* NSObject+InitWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+InitWithBlock.h"; sourceTree = "<group>"; };
+		06C445251D6161DF0012C8DD /* NSObject+InitWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+InitWithBlock.m"; sourceTree = "<group>"; };
 		06D878131CF86F9000DC98E7 /* CHUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUserInfoModel.h; sourceTree = "<group>"; };
 		06D878141CF86F9000DC98E7 /* CHUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUserInfoModel.m; sourceTree = "<group>"; };
 		06D878171CF86F9000DC98E7 /* CHLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginButton.h; sourceTree = "<group>"; };
@@ -148,12 +148,14 @@
 		0674C3C31CD1A6AF00147BD1 /* Catagory */ = {
 			isa = PBXGroup;
 			children = (
+				06C445211D6161A90012C8DD /* UIImage+Handler.h */,
+				06C445221D6161A90012C8DD /* UIImage+Handler.m */,
 				0674C3E21CD1A84400147BD1 /* NSError+SignalError.h */,
 				0674C3E31CD1A84400147BD1 /* NSError+SignalError.m */,
 				0674C3E41CD1A84400147BD1 /* UIColor+Hex.h */,
 				0674C3E51CD1A84400147BD1 /* UIColor+Hex.m */,
-				0674C3E61CD1A84400147BD1 /* UIImage+Scale.h */,
-				0674C3E71CD1A84400147BD1 /* UIImage+Scale.m */,
+				06C445241D6161DF0012C8DD /* NSObject+InitWithBlock.h */,
+				06C445251D6161DF0012C8DD /* NSObject+InitWithBlock.m */,
 			);
 			name = Catagory;
 			path = Project/Catagory;
@@ -199,8 +201,6 @@
 				06E9F79B1D24E45E007CF577 /* CHToolKit.m */,
 				0648F7BF1D2A9A6200DC6047 /* CHImageLoader.h */,
 				0648F7C01D2A9A6200DC6047 /* CHImageLoader.m */,
-				065B67D61D5C64BF001BCB0D /* UIImage+Handler.h */,
-				065B67D71D5C64BF001BCB0D /* UIImage+Handler.m */,
 			);
 			name = Utilities;
 			path = Project/Utilities;
@@ -495,9 +495,9 @@
 				0674C3E81CD1A84400147BD1 /* NSError+SignalError.m in Sources */,
 				0674D0531CE43020000132ED /* CHBarItemViewModel.m in Sources */,
 				06D878331CF86F9000DC98E7 /* CHLoginModalController.m in Sources */,
+				06C445231D6161A90012C8DD /* UIImage+Handler.m in Sources */,
 				0648F7C11D2A9A6200DC6047 /* CHImageLoader.m in Sources */,
 				06D8782B1CF86F9000DC98E7 /* CHUserInfoModel.m in Sources */,
-				065B67D81D5C64BF001BCB0D /* UIImage+Handler.m in Sources */,
 				0674D0581CE43020000132ED /* CHTabBarViewModel.m in Sources */,
 				0674C3D91CD1A6AF00147BD1 /* AppDelegate.m in Sources */,
 				0674C3E91CD1A84400147BD1 /* UIColor+Hex.m in Sources */,
@@ -509,11 +509,11 @@
 				06D8782C1CF86F9000DC98E7 /* CHLoginButton.m in Sources */,
 				0674D0541CE43020000132ED /* CHCustomTabBar.m in Sources */,
 				06E9F79C1D24E45E007CF577 /* CHToolKit.m in Sources */,
-				0674C3EA1CD1A84400147BD1 /* UIImage+Scale.m in Sources */,
 				06D878321CF86F9000DC98E7 /* CHRestController.m in Sources */,
 				0674C3DD1CD1A6AF00147BD1 /* ASNavigator.m in Sources */,
 				06D8782D1CF86F9000DC98E7 /* CHLoginTextField.m in Sources */,
 				0674D0571CE43020000132ED /* CHTabBarViewController.m in Sources */,
+				06C445261D6161DF0012C8DD /* NSObject+InitWithBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
