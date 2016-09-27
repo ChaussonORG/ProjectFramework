@@ -4,46 +4,62 @@
 <dict>
 	<key>color</key>
 	<string>0Xffffff</string>
-	<key>style</key>
-	<string>UIVisualEffectView</string>
 	<key>height</key>
 	<integer>49</integer>
 	<key>selectIndex</key>
-	<integer>0</integer>
+	<integer>4</integer>
 	<key>tabBarItems</key>
 	<array>
 		<dict>
 			<key>UIViewControllName</key>
-			<string>HHTHomePageViewController</string>
+			<string>FirstViewController</string>
 			<key>tabbarTitle</key>
-			<string>互海通</string>
+			<string>首页</string>
 			<key>unselectedIconName</key>
-			<string>found</string>
+			<string>pagehome</string>
 			<key>selectedIconName</key>
-			<string>foundSelected</string>
+			<string>pagehomeSele</string>
 		</dict>
 		<dict>
 			<key>tabbarTitle</key>
-			<string>船舶</string>
+			<string>订单</string>
 			<key>UIViewControllName</key>
-			<string>HHTShipsController</string>
+			<string>SecondViewController</string>
 			<key>unselectedIconName</key>
-			<string>circle</string>
+			<string>order</string>
 			<key>selectedIconName</key>
-			<string>seletcircle</string>
+			<string>orderSele</string>
 		</dict>
 		<dict>
 			<key>tabbarTitle</key>
-			<string>我的</string>
+			<string>我的玩具</string>
 			<key>UIViewControllName</key>
-			<string>HHTSeaMapViewController</string>
+			<string>ThirdViewController</string>
 			<key>unselectedIconName</key>
-			<string>found</string>
+			<string>myToy</string>
 			<key>selectedIconName</key>
-			<string>foundSelected</string>
+			<string>myToySele</string>
+		</dict>
+		<dict>
+			<key>tabbarTitle</key>
+			<string>购物车</string>
+			<key>UIViewControllName</key>
+			<string>FourthViewController</string>
+			<key>unselectedIconName</key>
+			<string>car</string>
+			<key>selectedIconName</key>
+			<string>carSele</string>
+		</dict>
+		<dict>
+			<key>tabbarTitle</key>
+			<string>我</string>
+			<key>UIViewControllName</key>
+			<string>FifthViewController</string>
+			<key>unselectedIconName</key>
+			<string>mine</string>
+			<key>selectedIconName</key>
+			<string>mineSele</string>
 		</dict>
 	</array>
-	<key>title</key>
-	<string></string>
 </dict>
 </plist>

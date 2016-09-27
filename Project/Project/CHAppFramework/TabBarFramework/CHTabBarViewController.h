@@ -1,15 +1,15 @@
 //
 //  CHTabBarViewController.h
-//  WinZhen
+//  CHTabbarFramework
 //
-//  Created by 郭金涛 on 15/10/31.
-//  Copyright © 2015年 郭金涛. All rights reserved.
+//  Created by 郭金涛 on 16/9/26.
+//  Copyright © 2016年 Gjt. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "CHTabBarViewModel.h"
-#import "CHCustomTabBar.h"
+typedef void(^tabBatrBlcok)();
 @interface CHTabBarViewController : UITabBarController
-@property (strong ,nonatomic ) CHTabBarViewModel *viewModel;
-@property (strong ,nonatomic ) CHCustomTabBar *customTabBar;
+//自定义跳转方法 带跳转成功后的回调方法
+- (void)tabBarSelectIndex:(NSInteger)index block:(tabBatrBlcok)block;
+
 @end

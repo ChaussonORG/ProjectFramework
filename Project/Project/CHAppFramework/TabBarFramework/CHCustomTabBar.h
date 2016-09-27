@@ -1,17 +1,19 @@
 //
 //  CHCustomTabBar.h
-//  WinZhen
+//  CHTabbarFramework
 //
-//  Created by 郭金涛 on 15/10/31.
-//  Copyright © 2015年 郭金涛. All rights reserved.
+//  Created by 郭金涛 on 16/9/26.
+//  Copyright © 2016年 Gjt. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+@protocol CHCustomTabBarDelegate <NSObject>
+- (void)selectedIndex:(NSInteger)index title:(NSString *)title;
+@end
+
 @interface CHCustomTabBar : UIView
-- (instancetype)initWithTabViewModel:(CHTabBarViewModel *)tabViewModel;
-- (instancetype)init __unavailable;
-- (instancetype)initWithFrame:(CGRect)frame __unavailable;
-
-
+- (instancetype)initWithTabBarItems:(NSMutableArray *)tabBarItems selectIndex:(NSInteger)selectIndex;
+- (void)setSelectIndex:(NSInteger)index;
+@property (nonatomic, weak)id<CHCustomTabBarDelegate>delegate;
 @end
